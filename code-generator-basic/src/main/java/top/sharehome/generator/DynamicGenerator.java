@@ -13,6 +13,8 @@ import java.io.IOException;
 
 /**
  * 动态文件生成
+ *
+ * @author AntonyCheng
  */
 public class DynamicGenerator {
     public static void main(String[] args) {
@@ -29,7 +31,7 @@ public class DynamicGenerator {
     /**
      * 通过模板动态生成
      *
-     * @param templateConfig       模板模型
+     * @param templateConfig          模板模型
      * @param templateFilePreciseName 模板所在的精确路径
      * @param outputPath              目标文件输出路径
      */
